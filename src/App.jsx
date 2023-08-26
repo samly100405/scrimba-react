@@ -1,10 +1,15 @@
-import { useState } from 'react'
+import reactLogo from "./assets/images/react-logo.png"
+
+import Header from "./Header"
+import MainContent from "./MainContent";
 
 function App() {
-
   return (
-    <h1>lmao</h1>
+    <div className="app">
+      <Header />
+      <MainContent />
+    </div>
   )
 }
 
-export default App
+export default App;
