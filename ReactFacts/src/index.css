@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Inter';
+
+    background-color: #282D35;
+    color: #FFFFFF;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #21222A;
+}
+
+.header-left {
+    display: flex;
+    color: #61DAFB;
+}
+
+.header-right {
+    color: #DEEBF8;
+}
+
+.main-content {
+    padding: 20px;
+    background-image: url('./assets/react-icon-large.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.main-content__title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.main-content__list {
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.main-content__list__item {
+    padding: 8px;
+}
+
+.main-content__list__item::marker {
+    color: #61DAFB
+}
