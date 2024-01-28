@@ -6,12 +6,7 @@ export default function CardContainer() {
         (elem, index) =>
             <Card 
                 key={index}
-                img={elem.img}
-                avgReview={elem.avgReview}
-                totalReviews={elem.totalReviews}
-                loc={elem.loc}
-                desc={elem.desc}
-                price={elem.price}
+                {...elem}
             />
     )
     return (
