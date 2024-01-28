@@ -40,6 +40,12 @@ body {
   margin: 0;
 }
 
+.card-container {
+  padding: 0 30px;
+  display: flex;
+  column-gap: 24px;
+}
+
 .card {
   width: 175px;
 }
