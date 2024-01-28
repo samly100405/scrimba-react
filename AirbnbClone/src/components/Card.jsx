@@ -4,7 +4,7 @@ import starPicture from '../assets/star.png'
 
 // Pass in image, review data, description, location, and price as integer in cents
 // Review data contains avereage stars and total reviews
-export default function Card({img, avgReview, totalReviews, desc, loc, price}) {
+export default function Card({img, avgReview, totalReviews, loc, desc, price}) {
     return (
         <div className="card">
             <img src={img} alt="picture" className='card__picture'/>
