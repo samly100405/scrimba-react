@@ -39,3 +39,34 @@ body {
   font-weight: 300;
   margin: 0;
 }
+
+.card {
+  width: 175px;
+}
+
+.card__picture {
+  width: 175px;
+  height: 235px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.card h4 {
+  margin: 4px;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.card__reviews {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.card__reviews__text--grey {
+  color: #918E9B;
+}
+
+.card__description--bold {
+  font-weight: 600;
+}
